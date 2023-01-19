@@ -8,7 +8,7 @@ export default function Pokemon({ pokemon }: any) {
   const router = useRouter()
 
   if(router.isFallback){
-    return <div>Carregando...</div>
+    return <div>Carregando... </div>
   }
   
   return (

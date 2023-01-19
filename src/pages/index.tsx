@@ -35,7 +35,7 @@ export async function getStaticProps <GetStaticProps>(){
 
   
 
-  data.results.forEach( async (item: any, index: any)=>{
+  data.results.forEach((item: any, index: any)=>{
     item.id = index+1
   })
   return {
